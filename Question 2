@@ -1,0 +1,11 @@
+#Question 2
+
+laptop = { 
+    "brand" : "dell", 
+    "model" : "alienware", 
+    "year" : 2010 
+}
+print(laptop.get('brand'))
+laptop['year'] = 2019
+print(laptop.setdefault('home',True))
+print(laptop)
