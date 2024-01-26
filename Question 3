@@ -1,0 +1,20 @@
+#Question 3 
+
+
+name = input('Enter your name: ')
+user_age = int(input('Enter your age: '))
+country = input("Enter the country you reside: ")
+celebrity = input("What are you known for: ")
+
+user_pool = {
+    'name': name,
+    'age': user_age,
+    'country':country,
+    "celebrity": celebrity
+}
+
+print("what is user's name?: ", user_pool['name'])
+print("what is the user's age?:", user_pool['age'])
+print("what the user live?: ", user_pool['country'])
+print("what is the user known for? : ", user_pool['celebrity'])
+print(user_pool)
