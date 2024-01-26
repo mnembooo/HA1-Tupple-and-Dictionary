@@ -1,0 +1,11 @@
+#Question 1
+
+myfamily = ("mother", "father", "sister", "brother", "sister") 
+
+print(myfamily) 
+print(type(myfamily))
+print(myfamily[2])
+#myfamily.append('me')
+#in tuples we can't access to append function, because it relates to arrays(list) data type
+#myfamily.pop('brother')
+#in tuples we can't access to pop function, because it relates to arrays(list) data type
